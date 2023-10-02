@@ -36,7 +36,8 @@ python3 -m pip install -r requirements.txt
 ## Usage
 
 1. Connect the Roomba robot to the computer via USB.
-2. Run the desired Python script to perform the corresponding action:
+2. Check the dev entry with `sudo dmesg -w` and change from /dev/ttyUSB0 in `Robo.py` if necessary
+3. Run the desired Python script to perform the corresponding action:
 
 - `dance.py`: Plays a sequence of dance moves with the Roomba robot.
 - `hemisphere_movement.py`: Takes photos of an object from different angles while the Roomba robot moves.
