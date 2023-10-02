@@ -17,7 +17,7 @@ computer actions.
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/your-username/roomba-dance-photography.git
+git clone https://github.com/klei22/Roomba-650-Templates.git
 ```
 
 2. (highly recommended) Create a virtual env:
